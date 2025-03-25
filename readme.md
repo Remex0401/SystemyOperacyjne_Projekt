@@ -62,7 +62,7 @@ Celem projektu jest pokazanie, jak synchronizować dostęp do współdzielonych 
 
 - **Opis:**  
   Funkcja `philosopher` symuluje cykl życia filozofa:
-  1. Filozof myśli przez losowy okres czasu (od 1s do 3s).
+  1. Filozof myśli przez losowy okres czasu (od 1 do 3 sekund).
   2. Zmienia swój stan na głodny i wywołuje `waiter.wait()`, aby uzyskać pozwolenie na jedzenie.
   3. Próbuje zablokować dwa mutexy reprezentujące lewy i prawy widelec.
   4. Je przez losowy czas (od 1 do 2 sekund).
